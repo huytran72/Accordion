@@ -1,5 +1,5 @@
-function App() {
+import React from "react";
+
+export default function App() {
   return <div>Accordion</div>;
 }
-
-export default App;
