@@ -32,8 +32,9 @@ function Accordion() {
 function AccordionItem({ num, title, text }) {
   return (
     <div className="item">
-      <p>{num}</p>
-      <p>{text}</p>
+      <p className="number">{num}</p>
+      <p className="text">{text}</p>
+      <p className="icon">{icon}</p>
     </div>
   );
 }
