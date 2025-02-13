@@ -41,7 +41,7 @@ function AccordionItem({ num, title, text }) {
       <p className="number">{num}</p>
       <p className="text">{title}</p>
       <p className="icon">-</p>
-      <div className="content-box">title</div>
+      <div className="content-box">{text}</div>
     </div>
   );
 }
