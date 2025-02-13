@@ -28,3 +28,5 @@ export default function App() {
 function Accordion() {
   return <div>TODO</div>;
 }
+
+function AccordionItem({ num, title, text }) {}
