@@ -29,4 +29,11 @@ function Accordion() {
   return <div>TODO</div>;
 }
 
-function AccordionItem({ num, title, text }) {}
+function AccordionItem({ num, title, text }) {
+  return (
+    <div className="item">
+      <p>{num}</p>
+      <p>{text}</p>
+    </div>
+  );
+}
