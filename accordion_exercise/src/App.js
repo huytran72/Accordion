@@ -29,12 +29,7 @@ function Accordion({ data }) {
   return (
     <div className="accordion">
       {data.map((el, i) => (
-        <AccordionItem
-          key={el.title}
-          num={el.num}
-          title={el.title}
-          text={el.text}
-        />
+        <AccordionItem key={el.title} title={el.title} text={el.text} num={i} />
       ))}
     </div>
   );
