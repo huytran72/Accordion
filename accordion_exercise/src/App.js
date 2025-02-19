@@ -37,8 +37,6 @@ function Accordion({ data }) {
 }
 
 function AccordionItem({ num, title, text }) {
-  const [isOpen, setIsOpen] = useState(false);
-
   function handleToggle() {
     setIsOpen(!isOpen);
   }
