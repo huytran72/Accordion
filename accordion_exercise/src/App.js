@@ -27,7 +27,7 @@ export default function App() {
 }
 
 function Accordion({ data }) {
-  const [curOpen, setIsOpen] = useState(null);
+  const [curOpen, setIsOpen] = useState(0);
 
   return (
     <div className="accordion">
