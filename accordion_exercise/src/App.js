@@ -49,7 +49,7 @@ function AccordionItem({ num, title, text, curOpen, onOpen }) {
   const isOpen = num === curOpen;
 
   function handleToggle() {
-    setIsOpen(!isOpen);
+    onOpen(isOpen ? null : num);
   }
 
   return (
