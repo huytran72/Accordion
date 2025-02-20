@@ -34,6 +34,7 @@ function Accordion({ data }) {
       {data.map((el, i) => (
         <AccordionItem
           curOpen={curOpen}
+          onOpen={setIsOpen}
           title={el.title}
           text={el.text}
           num={i}
