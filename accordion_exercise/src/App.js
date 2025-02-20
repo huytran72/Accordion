@@ -38,8 +38,8 @@ function Accordion({ data }) {
           title={el.title}
           num={i}
           key={el.title}
-        />
-        {el.text}
+        >
+          {el.text}
         </AccordionItem>
       ))}
     </div>
