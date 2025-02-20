@@ -45,7 +45,7 @@ function Accordion({ data }) {
   );
 }
 
-function AccordionItem({ num, title, text }) {
+function AccordionItem({ num, title, text, curOpen, onOpen }) {
   function handleToggle() {
     setIsOpen(!isOpen);
   }
