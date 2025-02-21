@@ -42,6 +42,8 @@ function Accordion({ data }) {
           {el.text}
         </AccordionItem>
       ))}
+
+        <AccordionItem
     </div>
   );
 }
