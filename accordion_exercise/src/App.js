@@ -44,6 +44,10 @@ function Accordion({ data }) {
       ))}
 
         <AccordionItem
+          curOpen={curOpen}
+          onOpen={setCurOpen}
+          title="Where are these chairs assembled?"
+          num={0}
     </div>
   );
 }
