@@ -51,6 +51,10 @@ function Accordion({ data }) {
         key={"test "}
       >
         <p>Allows React develops to:</p>
+        <ul>
+          <li>Build components</li>
+          <li>Manage state</li>
+          <li>Use hooks</li>
       </AccordionItem>
     </div>
   );
