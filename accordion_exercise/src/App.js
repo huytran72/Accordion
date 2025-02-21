@@ -43,12 +43,15 @@ function Accordion({ data }) {
         </AccordionItem>
       ))}
 
-        <AccordionItem
-          curOpen={curOpen}
-          onOpen={setCurOpen}
-          title="Where are these chairs assembled?"
-          num={22}
-          key={'test '}
+      <AccordionItem
+        curOpen={curOpen}
+        onOpen={setCurOpen}
+        title="Where are these chairs assembled?"
+        num={22}
+        key={"test "}
+      >
+        <p>Allows React develops to:</p>
+      </AccordionItem>
     </div>
   );
 }
