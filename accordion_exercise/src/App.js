@@ -55,6 +55,7 @@ function Accordion({ data }) {
           <li>Build components</li>
           <li>Manage state</li>
           <li>Use hooks</li>
+          <li>Use context</li>
       </AccordionItem>
     </div>
   );
