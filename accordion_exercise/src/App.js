@@ -47,7 +47,8 @@ function Accordion({ data }) {
           curOpen={curOpen}
           onOpen={setCurOpen}
           title="Where are these chairs assembled?"
-          num={0}
+          num={22}
+          key={'test '}
     </div>
   );
 }
